@@ -1,0 +1,21 @@
+{"frames": [
+
+{
+	"filename": "globe_s.png",
+	"frame": {"x":1,"y":1,"w":171,"h":209},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":171,"h":209},
+	"sourceSize": {"w":171,"h":209}
+}],
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "globe_s.png",
+	"format": "RGBA8888",
+	"size": {"w":173,"h":211},
+	"scale": "1",
+	"normal_map": "globe_s_n.png",
+	"smartupdate": "$TexturePacker:SmartUpdate:219636d9c77ef05997233fe2f001ecf9:2f1dfb895dac7932d8f6c7421bdb1078:891c496441a36d5a2a7cd9c82b7d17ed$"
+}
+}

@@ -1,0 +1,21 @@
+{"frames": [
+
+{
+	"filename": "fIsh_s.png",
+	"frame": {"x":1,"y":1,"w":278,"h":107},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":278,"h":107},
+	"sourceSize": {"w":278,"h":107}
+}],
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "fish_s.png",
+	"format": "RGBA8888",
+	"size": {"w":280,"h":109},
+	"scale": "1",
+	"normal_map": "fish_s_n.png",
+	"smartupdate": "$TexturePacker:SmartUpdate:f314a9dc9e0c0dd2a700e7c44ecc1047:2a0662b29ffe82e44affdc4ed8172b93:90a325048ef6641d5a4ced4275552378$"
+}
+}

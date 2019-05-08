@@ -1,0 +1,21 @@
+{"frames": [
+
+{
+	"filename": "plantdesk_s.png",
+	"frame": {"x":1,"y":1,"w":147,"h":146},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":147,"h":146},
+	"sourceSize": {"w":147,"h":146}
+}],
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "plantdesk_s.png",
+	"format": "RGBA8888",
+	"size": {"w":149,"h":148},
+	"scale": "1",
+	"normal_map": "plantdesk_s_n.png",
+	"smartupdate": "$TexturePacker:SmartUpdate:4515de7863ab1a0f1477134078e67e39:e4ae423a0735e4b32a0b6a26c3b00bfa:2d6f6d2a0bab25d7fa9ab351081e2a31$"
+}
+}

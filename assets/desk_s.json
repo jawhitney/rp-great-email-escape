@@ -1,0 +1,21 @@
+{"frames": [
+
+{
+	"filename": "desk_s.png",
+	"frame": {"x":1,"y":1,"w":1601,"h":589},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1601,"h":589},
+	"sourceSize": {"w":1601,"h":589}
+}],
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "desk_s.png",
+	"format": "RGBA8888",
+	"size": {"w":1603,"h":591},
+	"scale": "1",
+	"normal_map": "desk_s_n.png",
+	"smartupdate": "$TexturePacker:SmartUpdate:5664b4f72bd95312a46e4d9714733341:ecb9e03a8a6dcec00b2ef806ff243069:090dacd946a7207e4ea41385b72de673$"
+}
+}

@@ -1,0 +1,21 @@
+{"frames": [
+
+{
+	"filename": "crown_s.png",
+	"frame": {"x":1,"y":1,"w":123,"h":51},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":123,"h":51},
+	"sourceSize": {"w":123,"h":51}
+}],
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "crown_s.png",
+	"format": "RGBA8888",
+	"size": {"w":125,"h":53},
+	"scale": "1",
+	"normal_map": "crown_s_n.png",
+	"smartupdate": "$TexturePacker:SmartUpdate:84743d0ad1075361d18755ae913dd6a7:5259a256091e35507f98963832f2e10b:d9c3756267db658c675f8f8fa5bcb8e7$"
+}
+}

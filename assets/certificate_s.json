@@ -1,0 +1,21 @@
+{"frames": [
+
+{
+	"filename": "certificate_s.png",
+	"frame": {"x":1,"y":1,"w":163,"h":214},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":163,"h":214},
+	"sourceSize": {"w":163,"h":214}
+}],
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "certificate_s.png",
+	"format": "RGBA8888",
+	"size": {"w":165,"h":216},
+	"scale": "1",
+	"normal_map": "certificate_s_n.png",
+	"smartupdate": "$TexturePacker:SmartUpdate:8a43e79bef9497ad3c230c63ad9ee205:3a2f1895aeda4bdceee1a96dba5c08c4:e4765e2c5d0b67e0ac3d9d4ff1a8b031$"
+}
+}

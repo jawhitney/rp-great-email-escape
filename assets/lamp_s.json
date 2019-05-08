@@ -1,0 +1,21 @@
+{"frames": [
+
+{
+	"filename": "lamp_s.png",
+	"frame": {"x":1,"y":1,"w":174,"h":224},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":174,"h":224},
+	"sourceSize": {"w":174,"h":224}
+}],
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "lamp_s.png",
+	"format": "RGBA8888",
+	"size": {"w":176,"h":226},
+	"scale": "1",
+	"normal_map": "lamp_s_n.png",
+	"smartupdate": "$TexturePacker:SmartUpdate:ef897faed3c505e45374b4c16f5c28d3:f81f2161d54d6b7d5e501f5fc5e307f8:170ec19f3e23a11b6b132322f72520f3$"
+}
+}

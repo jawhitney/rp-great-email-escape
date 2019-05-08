@@ -1,0 +1,21 @@
+{"frames": [
+
+{
+	"filename": "portrait_s.png",
+	"frame": {"x":1,"y":1,"w":163,"h":214},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":163,"h":214},
+	"sourceSize": {"w":163,"h":214}
+}],
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "portrait_s.png",
+	"format": "RGBA8888",
+	"size": {"w":165,"h":216},
+	"scale": "1",
+	"normal_map": "portrait_s_n.png",
+	"smartupdate": "$TexturePacker:SmartUpdate:787e0902d5b1c65fdf77fd8bb6c21501:3a2f1895aeda4bdceee1a96dba5c08c4:3e74acb27fbe2ca3dbba71d70c9f9bfd$"
+}
+}

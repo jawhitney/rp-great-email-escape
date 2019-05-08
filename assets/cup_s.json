@@ -1,0 +1,21 @@
+{"frames": [
+
+{
+	"filename": "cup_s.png",
+	"frame": {"x":1,"y":1,"w":66,"h":95},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":66,"h":95},
+	"sourceSize": {"w":66,"h":95}
+}],
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "cup_s.png",
+	"format": "RGBA8888",
+	"size": {"w":68,"h":97},
+	"scale": "1",
+	"normal_map": "cup_s_n.png",
+	"smartupdate": "$TexturePacker:SmartUpdate:3975a5d6463adef517c23db100242193:f54fd68ca5fd48e18d7d43e23d6ec09f:f83ea9844c68a47c9b66f264955b1958$"
+}
+}

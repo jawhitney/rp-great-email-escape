@@ -1,0 +1,21 @@
+{"frames": [
+
+{
+	"filename": "plant.png",
+	"frame": {"x":1,"y":1,"w":164,"h":164},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":164,"h":164},
+	"sourceSize": {"w":164,"h":164}
+}],
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "plant.png",
+	"format": "RGBA8888",
+	"size": {"w":166,"h":166},
+	"scale": "1",
+	"normal_map": "plant_n.png",
+	"smartupdate": "$TexturePacker:SmartUpdate:d3b9f89ce9cf74a632bc6c6673d4a9c5:9196486127cbb467a9f62a2d09a2c3d6:23fd9daf0ed6ab4f44152f3c56021d5c$"
+}
+}
