@@ -1,0 +1,21 @@
+{"frames": [
+
+{
+	"filename": "calendar.png",
+	"frame": {"x":1,"y":1,"w":150,"h":155},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":150,"h":155},
+	"sourceSize": {"w":150,"h":155}
+}],
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "calendar.png",
+	"format": "RGBA8888",
+	"size": {"w":152,"h":157},
+	"scale": "1",
+	"normal_map": "calendar_n.png",
+	"smartupdate": "$TexturePacker:SmartUpdate:459ff1d84cc88d72c990d19e5d94863d:672aa37c8eb1b0a38d4d2b52a434020a:dffe92d646ed56ae901ff91e8325ae96$"
+}
+}

@@ -1,0 +1,18 @@
+# Jekyll config
+
+# Site settings
+title: The Great Email Escape
+email: jonathan.a.whitney@gmail.com
+baseurl: "/rp-great-email-escape"
+github_username:  jawhitney
+
+# Build settings
+markdown: kramdown
+
+# Plugins
+plugins:
+- jekyll-autoprefixer
+
+autoprefixer:
+  browsers:
+  - last 2 versions

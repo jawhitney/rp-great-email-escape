@@ -1,0 +1,91 @@
+/*!
+ * JAW - Main 3.0.0
+ * Copyright 2019 Jonathan Whitney
+ */
+/* http://meyerweb.com/eric/tools/css/reset/ v2.0 | 20110126 License: none (public domain) */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; vertical-align: baseline; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+
+ol, ul { list-style: none; }
+
+html, body { overflow-x: hidden; }
+
+header, footer { padding: 1.5625rem 0; }
+
+header { background-color: #007fa2; background-image: -webkit-gradient(linear, left top, right bottom, from(#007fa2), to(#00576f)); background-image: linear-gradient(to bottom right, #007fa2, #00576f); text-align: center; }
+header a { display: inline-block; max-width: 12.5rem; color: white; }
+header a:hover { color: #e6e6e6; }
+header a:visited, header a:active { color: #cccccc; }
+header #logo { margin-bottom: 0.78125rem; }
+header i { font-size: 1.5rem; }
+header i:first-of-type { margin-right: 0.390625rem; }
+
+footer { background-color: #3e3e3e; color: white; text-align: center; -webkit-box-shadow: 0 50vh 0 50vh #3e3e3e; box-shadow: 0 50vh 0 50vh #3e3e3e; }
+
+main section:not(:first-child) { margin-bottom: 3.125rem; }
+
+section { padding: 0 1.5625rem; }
+
+#hero { padding: 1.5625rem; background-color: #3e3e3e; background-image: -webkit-gradient(linear, left top, right bottom, from(#3e3e3e), to(#252525)); background-image: linear-gradient(to bottom right, #3e3e3e, #252525); color: white; }
+
+.container { margin: 0 auto; width: 100%; max-width: 1000px; }
+
+.flex { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+
+@media only screen and (min-width: 768px) { header #logo { margin-bottom: 0; margin-right: auto; }
+  .flex { -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; } }
+#logo img { width: 100%; height: auto; }
+
+.headline { overflow: hidden; margin-top: 1.5625rem; text-align: center; }
+.headline span { display: inline-block; position: relative; color: #ccc; text-transform: uppercase; font-size: 1.5rem; opacity: 0; -webkit-transition: opacity 0.75s cubic-bezier(0.68, -0.55, 0.265, 1.55); transition: opacity 0.75s cubic-bezier(0.68, -0.55, 0.265, 1.55); }
+.headline span::before, .headline span::after { content: ""; position: absolute; top: 50%; width: 0; height: 1px; background-color: #ccc; -webkit-transition: width 1.5s cubic-bezier(0.68, -0.55, 0.265, 1.55); transition: width 1.5s cubic-bezier(0.68, -0.55, 0.265, 1.55); }
+.headline span::before { right: 100%; margin-right: .78125rem; }
+.headline span::after { left: 100%; margin-left: .78125rem; }
+.headline.loaded span { opacity: 1; }
+.headline.loaded span::before, .headline.loaded span::after { width: 500px; }
+
+#rpGameLaunch { position: relative; display: block; margin: 1.5625rem auto; }
+#rpGameLaunch::before { content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-image: url("../assets/arcade.png"); background-size: 100%; opacity: 0; -webkit-transition: opacity 0.1875s ease-out; transition: opacity 0.1875s ease-out; }
+#rpGameLaunch:hover::before { opacity: 1; }
+#rpGameLaunch img { max-width: 100%; height: auto; }
+
+@media only screen and (min-width: 768px) { #rpGameLaunch { max-width: 50%; } }
+#rpGameWrapper { position: relative; width: 100vw; height: 100vh; }
+
+#rpGame { position: absolute; top: 50%; left: 50%; z-index: 0; -webkit-transform: translateX(-50%) translateY(-50%); transform: translateX(-50%) translateY(-50%); }
+#rpGame.active { z-index: 2; }
+
+#rpGame, #rpGame canvas { width: 100%; max-width: 1200px; max-height: 675px; }
+
+@media (min-width: 1600px) { #rpGame, #rpGame canvas { max-width: 1600px; max-height: 900px; }
+  #rpGame canvas, #rpGame canvas canvas { width: 100%; max-width: 1600px; max-height: 900px; } }
+#rpGameSection { display: none; }
+
+#rpGameModal { position: fixed; z-index: -1; top: 0; right: 0; bottom: 0; left: 0; overflow: hidden; background-color: rgba(0, 0, 0, 0.5); opacity: 0; -webkit-transition: opacity 0.1875s ease-out; transition: opacity 0.1875s ease-out; pointer-events: none; }
+#rpGameModal.active { z-index: 1050; opacity: 1; pointer-events: auto; }
+
+html { font-size: 16px; }
+
+body { font-family: 'Fira Sans', sans-serif; font-weight: 400; line-height: 1.45; }
+
+p { margin-bottom: 0.78125rem; }
+
+h1, h2, h3, h4, h5 { margin: 1.5625rem 0 0.78125rem; font-weight: 400; line-height: 1.15; }
+
+h1 { margin-top: 0; font-size: 2.488em; }
+
+h2 { font-size: 2.074em; }
+
+h3 { font-size: 1.728em; }
+
+h4 { font-size: 1.44em; color: #007fa2; }
+
+h5 { font-size: 1.2em; }
+
+small, .text_small { font-size: 0.833em; }
+
+a { color: #007fa2; -webkit-transition: color 0.375s ease-out; transition: color 0.375s ease-out; }
+a:hover { color: #00a7d5; }
+a:visited, a:active { color: #09caff; }

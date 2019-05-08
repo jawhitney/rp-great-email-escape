@@ -1,0 +1,241 @@
+html,
+body {
+    overflow-x: hidden;
+}
+
+header,
+footer {
+    padding: $spacer / 2 0;
+}
+
+header {
+    background-color: $blue;
+    background-image: linear-gradient(to bottom right, $blue, darken($blue, $color-change));
+    text-align: center;
+
+    a {
+        display: inline-block;
+        max-width: 4 * $spacer;
+        color: white;
+
+        &:hover {
+            color: darken(white, $color-change);
+        }
+
+        &:visited,
+        &:active {
+            color: darken(white, 2 * $color-change);
+        }
+    }
+
+    #logo {
+        margin-bottom: $spacer / 4;
+    }
+
+    i {
+        font-size: 1.5 * $font-size-base;
+
+        &:first-of-type {
+            margin-right: $spacer / 8;
+        }
+    }
+}
+
+footer {
+    background-color: $gray;
+    color: white;
+    text-align: center;
+    box-shadow: 0 50vh 0 50vh $gray;
+}
+
+main {
+    section:not(:first-child) {
+        margin-bottom: $spacer;
+    }
+}
+
+section {
+    padding: 0 $spacer / 2;
+}
+
+#hero {
+    padding: $spacer / 2;
+    background-color: $gray;
+    background-image: linear-gradient(to bottom right, $gray, darken($gray, $color-change));
+    color: white;
+}
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1000px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media only screen and (min-width: $md) {
+    header {
+        #logo {
+            margin-bottom: 0;
+            margin-right: auto;
+        }
+    }
+
+    .flex {
+        flex-direction: row;
+    }
+}
+
+#logo img {
+    width: 100%;
+    height: auto;
+}
+
+.headline {
+    overflow: hidden;
+    margin-top: 0.5 * $spacer;
+    text-align: center;
+
+    span {
+        display: inline-block;
+        position: relative;
+        color: $gray-light;
+        text-transform: uppercase;
+        font-size: 1.5 * $font-size-base;
+        opacity: 0;
+        transition: opacity $timing $timing-function-bounce;
+
+        &::before,
+        &::after {
+            content: "";
+            position: absolute;
+            top: 50%;
+            width: 0;
+            height: 1px;
+            background-color: $gray-light;
+            transition: width 2 * $timing $timing-function-bounce;
+        }
+
+        &::before {
+            right: 100%;
+            margin-right: .78125rem;
+        }
+
+        &::after {
+            left: 100%;
+            margin-left: .78125rem;
+        }
+    }
+
+    &.loaded {
+        span {
+            opacity: 1;
+
+            &::before,
+            &::after {
+                width: 500px;
+            }
+        }
+    }
+}
+
+#rpGameLaunch {
+    position: relative;
+    display: block;
+    margin: $spacer / 2 auto;
+
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url("../assets/arcade.png");
+        background-size: 100%;
+        opacity: 0;
+        transition: opacity $timing / 4 $timing-function;
+    }
+
+    &:hover::before {
+        opacity: 1;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+@media only screen and (min-width: $md) {
+    #rpGameLaunch {
+        max-width: 50%;
+    }
+}
+
+#rpGameWrapper {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+#rpGame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 0;
+    transform: translateX(-50%) translateY(-50%);
+
+    &.active {
+        z-index: 2;
+    }
+}
+
+#rpGame,
+#rpGame canvas {
+    width: 100%;
+    max-width: 1200px;
+    max-height: 675px;
+}
+
+@media (min-width: 1600px) {
+    #rpGame,
+    #rpGame canvas {
+        max-width: 1600px;
+        max-height: 900px;
+
+        canvas {
+            width: 100%;
+            max-width: 1600px;
+            max-height: 900px;
+        }
+    }
+}
+
+#rpGameSection {
+    display: none;
+}
+
+#rpGameModal {
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    background-color: rgba(#000, 0.5);
+    opacity: 0;
+    transition: opacity $timing / 4 $timing-function;
+    pointer-events: none;
+
+    &.active {
+        z-index: 1050;
+        opacity: 1;
+        pointer-events: auto;
+    }
+}

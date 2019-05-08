@@ -1,0 +1,231 @@
+{
+	"textures": [
+		{
+			"image": "plantcabinet.png",
+			"normalMap": "plantcabinet_n.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1660,
+				"h": 166
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "01",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 164,
+						"h": 164
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 164,
+						"h": 164
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 164,
+						"h": 164
+					}
+				},
+				{
+					"filename": "02",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 164,
+						"h": 164
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 164,
+						"h": 164
+					},
+					"frame": {
+						"x": 167,
+						"y": 1,
+						"w": 164,
+						"h": 164
+					}
+				},
+				{
+					"filename": "03",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 164,
+						"h": 164
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 164,
+						"h": 164
+					},
+					"frame": {
+						"x": 333,
+						"y": 1,
+						"w": 164,
+						"h": 164
+					}
+				},
+				{
+					"filename": "04",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 164,
+						"h": 164
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 164,
+						"h": 164
+					},
+					"frame": {
+						"x": 499,
+						"y": 1,
+						"w": 164,
+						"h": 164
+					}
+				},
+				{
+					"filename": "05",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 164,
+						"h": 164
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 164,
+						"h": 164
+					},
+					"frame": {
+						"x": 665,
+						"y": 1,
+						"w": 164,
+						"h": 164
+					}
+				},
+				{
+					"filename": "06",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 164,
+						"h": 164
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 164,
+						"h": 164
+					},
+					"frame": {
+						"x": 831,
+						"y": 1,
+						"w": 164,
+						"h": 164
+					}
+				},
+				{
+					"filename": "07",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 164,
+						"h": 164
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 164,
+						"h": 164
+					},
+					"frame": {
+						"x": 997,
+						"y": 1,
+						"w": 164,
+						"h": 164
+					}
+				},
+				{
+					"filename": "08",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 164,
+						"h": 164
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 164,
+						"h": 164
+					},
+					"frame": {
+						"x": 1163,
+						"y": 1,
+						"w": 164,
+						"h": 164
+					}
+				},
+				{
+					"filename": "09",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 164,
+						"h": 164
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 164,
+						"h": 164
+					},
+					"frame": {
+						"x": 1329,
+						"y": 1,
+						"w": 164,
+						"h": 164
+					}
+				},
+				{
+					"filename": "10",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 164,
+						"h": 164
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 164,
+						"h": 164
+					},
+					"frame": {
+						"x": 1495,
+						"y": 1,
+						"w": 164,
+						"h": 164
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:9e70ac2ed9cb42f17c9d4896b8c2ae1d:2cdf76492c54f694fe734dd7657d9cd0:6a65b3e62467d8398e5c02532d602231$"
+	}
+}

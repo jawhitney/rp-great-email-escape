@@ -1,0 +1,76 @@
+//== Custom variables
+
+// Colors
+$blue: #007fa2;
+$gray: #3e3e3e;
+$gray-light: #ccc;
+$color-change: 10%;
+
+// Font sizes
+$font-size-base: 1rem;
+
+// Dimensions
+$spacer: 3.125rem;
+
+// Breakpoints
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+
+// Animation
+$timing: 0.75s;
+$timing-function: ease-out;
+$timing-function-bounce: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+
+// // Spacing
+// $jaw-top-bottom: 20px;
+
+// // Bootstrap overrides
+
+// //== Scaffolding
+// $brand-primary: $jaw-main !default;
+
+// //== Iconography
+// $icon-font-path: "../assets/fonts/bootstrap/" !default;
+
+// //== Navbar
+// $navbar-height: 62px !default;
+
+// //== Timing
+// $jaw-timing: 0.2s;
+// $jaw-timing-function: ease-out;
+
+// /*
+//  * Bootstrap 4 Overrides
+//  */
+
+// //== Font
+// $font-size-base: 1rem; // Assumes the browser default, typically `16px`
+// $line-height-base: 1.25; // 1.5 !default;
+// $headings-line-height: 1.25; // 1.2 !default;
+// $h1-font-size: $font-size-base * 2; // $font-size-base * 2.5 !default;
+// $h2-font-size: $font-size-base * 1.75; // $font-size-base * 2.5 !default;
+// $h3-font-size: $font-size-base * 1.5; // $font-size-base * 1.75 !default;
+// $h4-font-size: $font-size-base * 1.25; // $font-size-base * 1.5 !default;
+// $h5-font-size: $font-size-base; // $font-size-base * 1.25 !default;
+
+// //== Options
+// $enable-shadows: true;
+
+// //== Dimensions
+// $spacer: 3.125rem; // 50px | 1rem !default;
+// $grid-gutter-width: $spacer * 2; // 30px !default;
+
+// //== Colors
+// $body-color: $jaw-base-gray; // $gray-900 !default;
+
+// //== Links
+// $link-color: $jaw-main-light; // theme-color("primary") !default;
+// $link-hover-color: $jaw-main-dark; // darken($link-color, 15%) !default;
+// $link-hover-decoration: none; // underline !default;
+
+// //== Borders
+// $border-radius: 0.1875rem; // 3px | .25rem !default;
+// $border-radius-lg: 2 * $border-radius; // 6px | .3rem !default;
+// $border-radius-sm: 0.5 * $border-radius; // 1.5px | .2rem !default;

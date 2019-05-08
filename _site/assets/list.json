@@ -1,0 +1,21 @@
+{"frames": [
+
+{
+	"filename": "list.png",
+	"frame": {"x":1,"y":1,"w":128,"h":77},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":77},
+	"sourceSize": {"w":128,"h":77}
+}],
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "list.png",
+	"format": "RGBA8888",
+	"size": {"w":130,"h":79},
+	"scale": "1",
+	"normal_map": "list_n.png",
+	"smartupdate": "$TexturePacker:SmartUpdate:b0066e3897c99b44344817414a97de2b:3b953559d036fdb891d25350a63cfaf7:7ae92132fd954c136f9653a8ef9ad545$"
+}
+}

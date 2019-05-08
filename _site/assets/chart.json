@@ -1,0 +1,21 @@
+{"frames": [
+
+{
+	"filename": "chart.png",
+	"frame": {"x":1,"y":1,"w":242,"h":174},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":242,"h":174},
+	"sourceSize": {"w":242,"h":174}
+}],
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "chart.png",
+	"format": "RGBA8888",
+	"size": {"w":244,"h":176},
+	"scale": "1",
+	"normal_map": "chart_n.png",
+	"smartupdate": "$TexturePacker:SmartUpdate:9d0a804c3a31f6b4efcf98e9912004e0:028bf07bb5a11283beb76a008ccaf834:1acb07aeb981cb01f756925489508d65$"
+}
+}

@@ -1,0 +1,21 @@
+{"frames": [
+
+{
+	"filename": "computer.png",
+	"frame": {"x":1,"y":1,"w":440,"h":362},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":440,"h":362},
+	"sourceSize": {"w":440,"h":362}
+}],
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "computer.png",
+	"format": "RGBA8888",
+	"size": {"w":442,"h":364},
+	"scale": "1",
+	"normal_map": "computer_n.png",
+	"smartupdate": "$TexturePacker:SmartUpdate:7ac79e28b435ec05874234ec7c4525ec:7f3f75455469a076d38e82f2cfcb4cc9:995c9e3bd77d064818b4ed7b3330e4f6$"
+}
+}

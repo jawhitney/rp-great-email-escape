@@ -1,0 +1,21 @@
+{"frames": [
+
+{
+	"filename": "clock_s.png",
+	"frame": {"x":1,"y":1,"w":168,"h":168},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":168,"h":168},
+	"sourceSize": {"w":168,"h":168}
+}],
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "clock_s.png",
+	"format": "RGBA8888",
+	"size": {"w":170,"h":170},
+	"scale": "1",
+	"normal_map": "clock_s_n.png",
+	"smartupdate": "$TexturePacker:SmartUpdate:bba11441b1e0f0cea935abeb31ea854a:ff5bea1d9e092a08652c7c5910c129b4:ab83c803752c9ce470bd3c1ea831fc2c$"
+}
+}

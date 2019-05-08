@@ -1,0 +1,21 @@
+{"frames": [
+
+{
+	"filename": "inbox_s.png",
+	"frame": {"x":1,"y":1,"w":153,"h":81},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":153,"h":81},
+	"sourceSize": {"w":153,"h":81}
+}],
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "inbox_s.png",
+	"format": "RGBA8888",
+	"size": {"w":155,"h":83},
+	"scale": "1",
+	"normal_map": "inbox_s_n.png",
+	"smartupdate": "$TexturePacker:SmartUpdate:6e214451c1b63b3d7329b0db3801acaf:d1827140c1906a6449e8e76ed07f120c:de4797b5a443213a78230c33e37085b1$"
+}
+}
